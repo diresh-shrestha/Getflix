@@ -9,6 +9,7 @@
       "classes": true
     }
   },
+
   "env": {
     "browser": true,
     "node": true,
@@ -16,6 +17,7 @@
     "jest": true
   },
   "rules": {
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "react/prop-types": 0,
     "react-hooks/rules-of-hooks": "error",
     "no-debugger": 0,
